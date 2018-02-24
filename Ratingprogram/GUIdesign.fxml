@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control">
+   <children>
+      <ToolBar prefHeight="40.0" prefWidth="714.0">
+        <items>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Score Annotator" wrappingWidth="594.13671875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+          <Button fx:id="exit" mnemonicParsing="false" onAction="#exitSystem" prefHeight="42.0" prefWidth="83.0" text="Exit" />
+        </items>
+      </ToolBar>
+      <ComboBox fx:id="datasetCombo" layoutX="62.0" layoutY="96.0" onAction="#selectDataset" prefWidth="150.0" />
+      <Text layoutX="65.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dataset:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="imageCombo" layoutX="62.0" layoutY="157.0" onAction="#selectImage" prefWidth="150.0" />
+      <Text layoutX="62.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="image" fitHeight="344.0" fitWidth="426.0" layoutX="273.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="301.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="scoreCombo" layoutX="351.0" layoutY="423.0" onAction="#setScore" prefHeight="25.0" prefWidth="83.0" />
+   </children>
+</AnchorPane>

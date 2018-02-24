@@ -1,0 +1,37 @@
+//extrac surf feature
+//?class or function
+//function
+class Feature
+{
+Mat ExtractFeature(sum, scale);
+Rect fst
+}
+
+//load model and detect
+class SurfModel
+{
+JudegeWindow(sum,scale);
+loadModel(filename);
+
+Seq<weak> weaks
+}
+class LogRegression
+{
+float Predict()
+
+Rect fst;
+Mat w;
+}weak;
+
+//Detection
+class SurfFaceDetection
+{
+MultiDetection;
+SingleScaleDetection;
+FeatureExtract;
+SurfModel;
+
+scale;
+step;
+
+}

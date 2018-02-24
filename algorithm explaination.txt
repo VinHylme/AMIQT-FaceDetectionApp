@@ -1,0 +1,10 @@
+How to get most similar face:
+	Convert to greyscale
+	49 32x32 patches in face
+	1D array of patches
+	Subtract mean and norm of each vector
+	Create matrix from the new vector values
+		For every image in DB
+	Repeat for input
+	Transpose of A * input matrix
+	Largest value in new matrix = most similar image

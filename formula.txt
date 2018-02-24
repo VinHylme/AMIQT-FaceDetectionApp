@@ -1,0 +1,29 @@
+We define a set of images I
+for each image in I
+Set of landmarks, L, from image
+(x, y) ? L,
+ i.e. (34, 45) ?  L
+We then create patches for each landmark in L
+We define a patch, p = [x1, 1 … x32,1
+                                          x1,32... x32,32]
+where 255 >= x >= 0, Representing grayscale value
+Convert patch to 1 dimension, [x11, x12, x13....
+Create 1d matrix of patches for a single image
+P = [p1, p2...p49]
+1024 * 49 pixels in the patches for a single image
+A contains patches for all images
+A is the trainset matrix.
+In order to score an image, we do the following...
+Rinse + repeat, then 
+f = B^T * A, f is. = a vector size of A (number of trainset images).
+Find largest value in vector. Index of max(f)
+map index to image name 
+use corresponding score of image to return final score
+Representing the Red-Green-Blue color value of a pixel
+
+	_
+X ? x – x
+x ? x/||x||
+a = [x1, x2... xn]
+repeat x for b
+si = bT. ai

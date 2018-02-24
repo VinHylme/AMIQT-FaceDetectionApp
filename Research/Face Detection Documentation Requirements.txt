@@ -1,0 +1,32 @@
+Confirmed face detectors documentation
+
+This notepad file states things that will be used later for the report
+
+The documentation should be short notes 
+
+Later on this will be completed so do not include too much
+
+
+An exmaple of what it should look like will be uploaded some time this week
+
+
+
+For each face detector that has been confirmed to work documentation will eventually need to be provided from them
+To make this easier for when the time comes set things should be collected now which will be listed below
+
+
+In a small document or folder the following should be created to help with the report;
+
+
+The Name face detector that is being used 
+
+Link to the source of the face detector ( Websites and any papers on the facedetector)
+
+Need to include what platform it works on (E.g. Windows/linux)
+
+Need to include what langauges the detector uses (E.g. C++)
+
+Need to provide working evidence of the face detector, so show before and after images(minimum 3) of results from it
+
+After showing working images of face detector comments about it should be made ( Few lines on it)
+	Comments should include, average time to process image(provide in seconds), Accuracy and anything that you think neccesary.
